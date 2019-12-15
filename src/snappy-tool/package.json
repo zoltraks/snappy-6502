@@ -1,0 +1,16 @@
+{
+  "name": "snappy-tool",
+  "version": "1.0.0",
+  "description": "Simple tool to create Snappy compressed file",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "ensnappy": "node ensnappy.js",
+    "desnappy": "node desnappy.js"
+  },
+  "author": "Filip Golewski",
+  "license": "WTFPL",
+  "dependencies": {
+    "snappy": "^6.2.3"
+  }
+}
